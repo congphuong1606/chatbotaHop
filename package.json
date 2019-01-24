@@ -2,9 +2,9 @@
   "name": "chat-bot-telegram",
   "version": "1.0.0",
   "description": "chatbot telegram",
-  "main": "index.js",
+  "main": "indexHop.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node indexHop.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "chat-bot-telegram": "index.js"
+    "chat-bot-telegram": "indexHop.js"
   },
   "readmeFilename": "Readme.md",
   "engines": {
