@@ -1,0 +1,37 @@
+{
+  "name": "chat-bot-telegram",
+  "version": "1.0.0",
+  "description": "chatbot telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": {
+    "name": "phuong nv",
+    "email": "cphuong.coldboy@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "after-load": "^1.0.4",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.3.0",
+    "content-disposition": "^0.3.0",
+    "express": "^4.9.8",
+    "moment": "^2.22.2",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0",
+    "ws": "^6.1.2"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "chat-bot-telegram": "index.js"
+  },
+  "readmeFilename": "Readme.md",
+  "engines": {
+    "node": "4.7.0"
+  }
+}
